@@ -1,0 +1,90 @@
+{
+  "id": "template-module",
+  "title": "template-module",
+  "description": "template-module",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "mccaffertyt"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "template-module",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "adventure",
+      "label": "template-module",
+      "path": "/packs/adventure.db",
+      "entity": "Adventure",
+      "type": "Adventure",
+      "system": "dnd5e"
+    },
+    {
+      "name": "cards",
+      "label": "template-module",
+      "path": "/packs/cards.db",
+      "entity": "Cards",
+      "type": "Cards"
+    },
+    {
+      "name": "items",
+      "label": "template-module",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "journals",
+      "label": "template-module",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "template-module",
+      "path": "/packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "maps",
+      "label": "template-module",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "playlists",
+      "label": "template-module",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    },
+    {
+      "name": "rolltables",
+      "label": "template-module",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable",
+      "type": "RollTable"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "url": "https://github.com/mccaffertyt/template-module",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}

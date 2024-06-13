@@ -84,7 +84,7 @@
     "./scripts/init.js"
   ],
   "url": "https://github.com/mccaffertyt/template-module",
-  "manifest": "",
-  "download": "",
+  "manifest": "https://github.com/mccaffertyt/template-module/releases/latest/module.json",
+  "download": "https://github.com/mccaffertyt/template-module/releases/download/0.0.1/module.zip",
   "manifestPlusVersion": "1.2.0"
 }

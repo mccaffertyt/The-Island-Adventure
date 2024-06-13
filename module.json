@@ -1,7 +1,7 @@
 {
-  "id": "template-module",
-  "title": "template-module",
-  "description": "template-module",
+  "id": "fvtt-adventure",
+  "title": "fvtt-adventure",
+  "description": "fvtt-adventure",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "10",
@@ -15,7 +15,7 @@
   "packs": [
     {
       "name": "actors",
-      "label": "template-module",
+      "label": "fvtt-adventure-actors",
       "path": "/packs/actors.db",
       "entity": "Actor",
       "type": "Actor",
@@ -23,7 +23,7 @@
     },
     {
       "name": "adventure",
-      "label": "template-module",
+      "label": "fvtt-adventure-adventure",
       "path": "/packs/adventure.db",
       "entity": "Adventure",
       "type": "Adventure",
@@ -31,14 +31,14 @@
     },
     {
       "name": "cards",
-      "label": "template-module",
+      "label": "fvtt-adventure-cards",
       "path": "/packs/cards.db",
       "entity": "Cards",
       "type": "Cards"
     },
     {
       "name": "items",
-      "label": "template-module",
+      "label": "fvtt-adventure-items",
       "path": "/packs/items.db",
       "entity": "Item",
       "type": "Item",
@@ -46,35 +46,35 @@
     },
     {
       "name": "journals",
-      "label": "template-module",
+      "label": "fvtt-adventure-journals",
       "path": "/packs/journals.db",
       "entity": "JournalEntry",
       "type": "JournalEntry"
     },
     {
       "name": "macros",
-      "label": "template-module",
+      "label": "fvtt-adventure-macros",
       "path": "/packs/macros.db",
       "entity": "Macro",
       "type": "Macro"
     },
     {
       "name": "maps",
-      "label": "template-module",
+      "label": "fvtt-adventure-maps",
       "path": "/packs/maps.db",
       "entity": "Scene",
       "type": "Scene"
     },
     {
       "name": "playlists",
-      "label": "template-module",
+      "label": "fvtt-adventure-playlists",
       "path": "/packs/playlists.db",
       "entity": "Playlist",
       "type": "Playlist"
     },
     {
       "name": "rolltables",
-      "label": "template-module",
+      "label": "fvtt-adventure-rolltables",
       "path": "/packs/rolltables.db",
       "entity": "RollTable",
       "type": "RollTable"
@@ -83,8 +83,8 @@
   "esmodules": [
     "./scripts/init.js"
   ],
-  "url": "https://github.com/mccaffertyt/template-module",
-  "manifest": "https://github.com/mccaffertyt/template-module/releases/latest/module.json",
-  "download": "https://github.com/mccaffertyt/template-module/releases/download/0.0.1/template-module.zip",
+  "url": "https://github.com/mccaffertyt/fvtt-adventure",
+  "manifest": "https://github.com/mccaffertyt/fvtt-adventure/releases/latest/module.json",
+  "download": "https://github.com/mccaffertyt/fvtt-adventure/releases/download/0.0.1/fvtt-adventure.zip",
   "manifestPlusVersion": "1.2.0"
 }

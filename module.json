@@ -2,7 +2,7 @@
   "id": "the-island-adventure",
   "title": "the-island-adventure",
   "description": "the-island-adventure",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "10",
     "verified": "12"
@@ -14,77 +14,16 @@
   ],
   "packs": [
     {
-      "name": "actors",
-      "label": "the-island-adventure-actors",
-      "path": "/packs/actors.db",
-      "entity": "Actor",
-      "type": "Actor",
-      "system": "dnd5e"
-    },
-    {
       "name": "adventure",
       "label": "the-island-adventure-adventure",
       "path": "/packs/adventure.db",
       "entity": "Adventure",
       "type": "Adventure",
       "system": "dnd5e"
-    },
-    {
-      "name": "cards",
-      "label": "the-island-adventure-cards",
-      "path": "/packs/cards.db",
-      "entity": "Cards",
-      "type": "Cards"
-    },
-    {
-      "name": "items",
-      "label": "the-island-adventure-items",
-      "path": "/packs/items.db",
-      "entity": "Item",
-      "type": "Item",
-      "system": "dnd5e"
-    },
-    {
-      "name": "journals",
-      "label": "the-island-adventure-journals",
-      "path": "/packs/journals.db",
-      "entity": "JournalEntry",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "macros",
-      "label": "the-island-adventure-macros",
-      "path": "/packs/macros.db",
-      "entity": "Macro",
-      "type": "Macro"
-    },
-    {
-      "name": "maps",
-      "label": "the-island-adventure-maps",
-      "path": "/packs/maps.db",
-      "entity": "Scene",
-      "type": "Scene"
-    },
-    {
-      "name": "playlists",
-      "label": "the-island-adventure-playlists",
-      "path": "/packs/playlists.db",
-      "entity": "Playlist",
-      "type": "Playlist"
-    },
-    {
-      "name": "rolltables",
-      "label": "the-island-adventure-rolltables",
-      "path": "/packs/rolltables.db",
-      "entity": "RollTable",
-      "type": "RollTable"
     }
   ],
-  "esmodules": [
-    "./scripts/init.js"
-  ],
   "url": "https://github.com/mccaffertyt/the-island-adventure",
-  "manifest": "https://github.com/mccaffertyt/the-island-adventure/releases/latest/module.json",
-  "download": "https://github.com/mccaffertyt/the-island-adventure/releases/download/0.0.1/the-island-adventure.zip",
+  "manifest": "https://raw.githubusercontent.com/mccaffertyt/the-island-adventure/main/module.json",
+  "download": "https://github.com/mccaffertyt/the-island-adventure/raw/main/the-island-adventure.zip",
   "manifestPlusVersion": "1.2.0"
 }
